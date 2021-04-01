@@ -1640,6 +1640,8 @@ table {
   -webkit-transition: opacity 0.15s linear;
   transition: opacity 0.15s linear;
 }
+
+
 .fade.in {
   opacity: 1;
 }
@@ -7222,6 +7224,18 @@ ul#navigation li.mega-menu__nav-item:hover:before {
   top: 0;
   left: 0;
   z-index: 40;
+}
+
+.slide:before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-color: #4c4145;
+  opacity: 0.7;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
 }
 .movie-best {
   position: relative;
