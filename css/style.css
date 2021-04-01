@@ -849,6 +849,7 @@ table {
   .container {
     width: 750px;
   }
+
 }
 @media (min-width: 992px) {
   .container {
@@ -9614,6 +9615,9 @@ ul#navigation li.mega-menu__nav-item:hover:before {
   .facebook-group {
     float: none;
     margin-bottom: 20px;
+  }
+  .control-panel {
+    display: none;
   }
   .rs-cat {
     margin: 0;
