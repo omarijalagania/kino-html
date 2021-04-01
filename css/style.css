@@ -2588,6 +2588,7 @@ input[type="button"].btn-block {
 }
 .col--remove {
   padding: 0;
+  margin-bottom: 20px;
 }
 .header-wrapper {
   background: #2e292e;
