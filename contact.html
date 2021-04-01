@@ -41,9 +41,6 @@
 <body>
     <div class="wrapper">
         <!-- Banner -->
-        <div class="banner-top">
-            <img alt='top banner' src="http://placehold.it/1600x90">
-        </div>
 
         <!-- Header section -->
         <header class="header-wrapper">
@@ -187,30 +184,15 @@
             </div>
         </header>
         
-        <!-- Search bar -->
-        <div class="search-wrapper">
-            <div class="container container--add">
-                <form id='search-form' method='get' class="search">
-                    <input type="text" class="search__field" placeholder="Search">
-                    <select name="sorting_item" id="search-sort" class="search__sort" tabindex="0">
-                        <option value="1" selected='selected'>By title</option>
-                        <option value="2">By year</option>
-                        <option value="3">By producer</option>
-                        <option value="4">By title</option>
-                        <option value="5">By year</option>
-                    </select>
-                    <button type='submit' class="btn btn-md btn--danger search__button">search a movie</button>
-                </form>
-            </div>
-        </div>
+       
         
         <!-- Main content -->
         <section class="container">
-            <h2 class="page-heading heading--outcontainer">Contact</h2>
+            <h2 class="page-heading heading--outcontainer">კონტაქტი</h2>
             <div class="contact">
-                <p class="contact__title">You have any questions or need help, <br><span class="contact__describe">don’t be shy and contact us</span></p>
-                <span class="contact__mail">support@amovie.com</span>
-                <span class="contact__tel">support@amovie.com</span>
+                <p class="contact__title">თამარ მეფის ქ. №14<br><span class="contact__describe">ქუთაისი, საქართველო</span></p>
+                <span class="contact__mail">info@kinosakartvelo.ge</span>
+                <span class="contact__tel">+995 431 23 01 10</span>
             </div>
         </section>
 
@@ -218,17 +200,17 @@
             <div class="container">
                 <div class="col-sm-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
                     <form id='contact-form' class="form row" method='post' novalidate="" action="send.php">
-                        <p class="form__title">Drop us a line</p>
+                        <p class="form__title">მოგვწერეთ</p>
                         <div class="col-sm-6">
-                            <input type='text' placeholder='Your name' name='user-name' class="form__name">
+                            <input type='text' placeholder='სახელი' name='user-name' class="form__name">
                         </div>
                         <div class="col-sm-6">
-                            <input type='email' placeholder='Your email' name='user-email' class="form__mail">
+                            <input type='email' placeholder='ელ ფოსტა' name='user-email' class="form__mail">
                         </div>
                         <div class="col-sm-12">
-                            <textarea placeholder="Your message" name="user-message" class="form__message"></textarea>
+                            <textarea placeholder="შეტყობინება" name="user-message" class="form__message"></textarea>
                         </div>
-                        <button type="submit" class='btn btn-md btn--danger'>send message</button>
+                        <button type="submit" class='btn btn-md btn--danger'>გაგზავნა</button>
                     </form>
                 </div>
             </div>
@@ -236,11 +218,12 @@
 
         <section class="container">
             <div class="contact">
-                <p class="contact__title">Trying to find our location? <br> <span class="contact__describe">we are here</span></p>
+                <p class="contact__title">ჩვენი ლოკაცია<br>
             </div>
         </section>
 
-        <div id='location-map' class="map"></div>
+        <div class="map"> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2952.4251900167847!2d42.702989515895766!3d42.2694462791931!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x405c8db63f72134f%3A0x856a818e3c1dcdac!2z4YOZ4YOY4YOc4YOdIOGDoeGDkOGDpeGDkOGDoOGDl-GDleGDlOGDmuGDnSAvIENpbmVtYSBTYWthcnR2ZWxv!5e0!3m2!1sru!2sge!4v1616358622702!5m2!1sru!2sge" width="1920" height="400" style="border: 0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
         
         <div class="clearfix"></div>
 
