@@ -2827,7 +2827,7 @@ ul#navigation a:hover {
 }
 .page-heading {
   padding-left: 30px;
-  margin-top: 56px;
+  margin-top: px;
   margin-bottom: 27px;
   font: 20px 'aleobold', sans-serif;
   color: #4c4145;
@@ -3717,6 +3717,11 @@ ul#navigation a:hover {
 }
 .post .post__image-link:hover:after {
   opacity: 1;
+}
+
+.post__title-link {
+  display: block;
+  margin-top: 80px;
 }
 .post .post__title-link {
   font: 30px 'aleoregular', sans-serif;
@@ -6128,6 +6133,7 @@ ul#navigation li.mega-menu__nav-item:hover:before {
   text-align: center;
 }
 .order .order__images {
+  margin-top: 50px;
   width: 76px;
 }
 .order .order__title {
