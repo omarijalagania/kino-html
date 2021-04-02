@@ -2796,9 +2796,9 @@ input[type="button"].btn-block {
   margin: 0;
   min-height: 55px;
 }
-ul#navigation {
-  margin-right: 280px;
-}
+/* ul#navigation {
+                    margin-right:280px
+} */
 ul#navigation a {
   font: 13px 'Roboto', sans-serif;
   color: #b4b1b2;
@@ -9806,7 +9806,7 @@ ul#navigation li.mega-menu__nav-item:hover:before {
   }
   .header-wrapper--home {
     position: relative;
-    height: 105px;
+    /* height: 105px; */
   }
   .auth--home {
     right: 130px;
