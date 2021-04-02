@@ -816,7 +816,7 @@ table {
   border-color: #fe505a !important;
 }
 .login .success {
-  background-color: #ffd564;
+  background-color: rgb(253, 178, 37);
   font: 18px 'aleobold', sans-serif;
   text-transform: uppercase;
   color: #4c4145;
@@ -2574,7 +2574,7 @@ input[type="button"].btn-block {
   background-color: #fe505a;
 }
 .color--yellow {
-  background-color: #ffd564;
+  background-color: rgb(253, 178, 37);
 }
 .color--grey {
   background-color: #969b9f;
@@ -2905,7 +2905,7 @@ ul#navigation a:hover {
 }
 .btn--warning {
   color: #4c4145;
-  background-color: #ffd564;
+  background-color: rgb(253, 178, 37);
   border: solid 1px #ffc936;
 }
 .btn--warning:hover {
@@ -2978,7 +2978,7 @@ ul#navigation a:hover {
   font: 13px 'Roboto', sans-serif;
   font-weight: bold;
   text-transform: uppercase;
-  color: #ffd564;
+  color: rgb(253, 178, 37);
   position: relative;
   margin-right: 3px;
   -webkit-transition: 0.3s;
@@ -3410,7 +3410,7 @@ ul#navigation a:hover {
   background-color: #4c4145;
 }
 .progress .progress__bar .progress__current {
-  background-color: #ffd564;
+  background-color: rgb(253, 178, 37);
   height: 100%;
   -webkit-border-radius: 2px 0 0 2px;
   -moz-border-radius: 2px 0 0 2px;
@@ -3779,7 +3779,7 @@ ul#navigation a:hover {
 }
 .quote {
   border: none;
-  background-color: #ffd564;
+  background-color: rgb(253, 178, 37);
   color: #4c4145;
   font: 28px 'aleoitalic', sans-serif;
   padding: 55px 50px 15px;
@@ -3804,7 +3804,7 @@ ul#navigation a:hover {
   left: -55px;
 }
 .quote .quote__author .quote__author-name {
-  background-color: #ffd564;
+  background-color: rgb(253, 178, 37);
   position: relative;
   padding-left: 10px;
 }
@@ -3917,7 +3917,7 @@ ul#navigation a:hover {
   border-radius: 15px;
   cursor: pointer;
   z-index: 20;
-  background-color: #ffd564;
+  background-color: rgb(253, 178, 37);
   -webkit-transition: 0.5s;
   transition: 0.5s;
   -webkit-transition-delay: 0.2s;
@@ -5190,7 +5190,7 @@ ul#navigation li.mega-menu__nav-item:hover:before {
 }
 .movie .movie__images {
   position: relative;
-  border: 3px solid #ffd564;
+  border: 3px solid rgb(253, 178, 37);
 }
 .movie .movie__images img {
   max-width: 100%;
@@ -5203,7 +5203,7 @@ ul#navigation li.mega-menu__nav-item:hover:before {
 .movie .movie__rate {
   position: relative;
   padding: 20px 17px 19px;
-  border: 3px solid #ffd564;
+  border: 3px solid rgb(253, 178, 37);
   border-top: none;
   font: 16px 'aleoregular', sans-serif;
   color: #4c4145;
@@ -5223,7 +5223,7 @@ ul#navigation li.mega-menu__nav-item:hover:before {
   -webkit-border-radius: 24px;
   -moz-border-radius: 24px;
   border-radius: 24px;
-  background-color: #ffd564;
+  background-color: rgb(253, 178, 37);
   border: solid 3px #fff;
   font: 16px 'Roboto', sans-serif;
   color: #4c4145;
@@ -5386,7 +5386,7 @@ ul#navigation li.mega-menu__nav-item:hover:before {
   z-index: 10;
   display: inline-block;
   font-size: 12px;
-  background-color: #ffd564;
+  background-color: rgb(253, 178, 37);
   padding: 9px 15px 8px 14px;
   margin: 5px 16px 5px 0;
   cursor: pointer;
@@ -5745,7 +5745,7 @@ ul#navigation li.mega-menu__nav-item:hover:before {
 .rates .rates__result {
   text-align: center;
   font: 20px 'aleobold', sans-serif;
-  background-color: #ffd564;
+  background-color: rgb(253, 178, 37);
 }
 .rates .rates__stars .score {
   margin-left: 50px;
@@ -5824,7 +5824,7 @@ ul#navigation li.mega-menu__nav-item:hover:before {
   transition: 0.3s;
 }
 .offer:hover {
-  background-color: #ffd564;
+  background-color: rgb(253, 178, 37);
 }
 .offer:hover .offer__name,
 .offer:hover .offer__datail,
@@ -5927,7 +5927,7 @@ ul#navigation li.mega-menu__nav-item:hover:before {
   content: '';
   width: 40px;
   height: 28px;
-  background-color: #ffd564;
+  background-color: rgb(253, 178, 37);
   position: absolute;
   top: 0;
   left: 0;
@@ -6008,7 +6008,7 @@ ul#navigation li.mega-menu__nav-item:hover:before {
   min-height: 110px;
 }
 .contact-form-wrapper {
-  background-color: #ffd564;
+  background-color: rgb(253, 178, 37);
   overflow: hidden;
   margin: 76px 0;
   padding: 56px 0 60px;
@@ -6212,10 +6212,10 @@ ul#navigation li.mega-menu__nav-item:hover:before {
   margin-right: -3px;
 }
 .order-step-area .first--step:before {
-  border-color: transparent transparent #ffd564 transparent;
+  border-color: transparent transparent rgb(253, 178, 37) transparent;
 }
 .order-step-area .first--step:after {
-  background-color: #ffd564;
+  background-color: rgb(253, 178, 37);
 }
 .order-step-area .second--step {
   margin-right: -3px;
@@ -6280,7 +6280,7 @@ ul#navigation li.mega-menu__nav-item:hover:before {
   -moz-border-radius: 50px;
   border-radius: 50px;
   padding-top: 40px;
-  background-color: #ffd564;
+  background-color: rgb(253, 178, 37);  /* orange */
   position: absolute;
   top: 50%;
   left: 50%;
@@ -6858,7 +6858,7 @@ ul#navigation li.mega-menu__nav-item:hover:before {
 .tp-leftarrow.default .slider__info:before {
   content: 'back';
   font: 13px 'aleoitalic', sans-serif;
-  color: #ffd564;
+  color: rgb(253, 178, 37);
   position: absolute;
   bottom: 22px;
   right: 19px;
@@ -6933,7 +6933,7 @@ ul#navigation li.mega-menu__nav-item:hover:before {
 .tp-rightarrow.default .slider__info:before {
   content: 'next';
   font: 13px 'aleoitalic', sans-serif;
-  color: #ffd564;
+  color: rgb(253, 178, 37);
   position: absolute;
   top: 67px;
   left: 19px;
@@ -7244,7 +7244,7 @@ ul#navigation li.mega-menu__nav-item:hover:before {
   z-index: 50;
 }
 .movie-best .movie-best__rating {
-  background-color: #ffd564;
+  background-color: rgb(253, 178, 37);
   text-align: center;
   font: 20px 'aleobold', sans-serif;
   color: #4c4145;
@@ -7278,7 +7278,7 @@ ul#navigation li.mega-menu__nav-item:hover:before {
 .movie-best .movie-best__check {
   cursor: pointer;
   position: relative;
-  background-color: #ffd564;
+  background-color: rgb(253, 178, 37);
   text-align: center;
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -7444,7 +7444,7 @@ ul#navigation li.mega-menu__nav-item:hover:before {
   visibility: visible;
 }
 .movie-best .movie-beta__item:hover .best-rate {
-  background-color: #ffd564;
+  background-color: rgb(253, 178, 37);
 }
 .mega-select-marker {
   margin-bottom: 3px;
@@ -7613,7 +7613,7 @@ ul#navigation li.mega-menu__nav-item:hover:before {
   text-align: center;
 }
 .table--icons th {
-  background-color: #ffd564;
+  background-color: rgb(253, 178, 37);
   font: 18px 'Roboto', sans-serif;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -7853,10 +7853,10 @@ ul#navigation li.mega-menu__nav-item:hover:before {
   border-color: #4c4145;
 }
 .price--gold .price-inner {
-  background-color: #ffd564;
+  background-color: rgb(253, 178, 37);
 }
 .price--gold .price-inner:before {
-  border-color: #ffd564;
+  border-color: rgb(253, 178, 37);
 }
 .price--gold .price__package,
 .price--gold .price__value,
@@ -8551,7 +8551,7 @@ ul#navigation li.mega-menu__nav-item:hover:before {
   text-transform: uppercase;
 }
 .cinema--full .cinema__rating {
-  background-color: #ffd564;
+  background-color: rgb(253, 178, 37);
   width: 750px;
   margin: 0 auto;
   font: 16px 'aleobold', sans-serif;
@@ -8583,7 +8583,7 @@ ul#navigation li.mega-menu__nav-item:hover:before {
   margin-right: -143px;
 }
 .cinema--full .cinema__info {
-  background-color: #ffd564;
+  background-color: rgb(253, 178, 37);
   width: 750px;
   margin: 0px auto;
   padding-top: 20px;
