@@ -6817,6 +6817,7 @@ ul#navigation li.mega-menu__nav-item:hover:before {
   display: none;
 }
 .bannercontainer {
+  display: block !important;
   width: 100%;
   position: relative;
   padding: 0;
@@ -9553,7 +9554,17 @@ ul#navigation li.mega-menu__nav-item:hover:before {
   .wrapper-images {
     -webkit-background-size: 2220px 1350px;
     background-size: 2220px 1350px;
+
   }
+  .bannercontainer {
+
+    width: 100%;
+    position: relative;
+    padding: 0;
+    max-height: 500px;
+    overflow: hidden;
+  }
+
   .slide .slide__video .media-element {
     margin-top: -200px;
   }
@@ -9563,8 +9574,15 @@ ul#navigation li.mega-menu__nav-item:hover:before {
     max-width: 215px;
   }
   .banner-top,
-  .banner-wrap,
   .adv-place {
+    display: none;
+  }
+
+  .banner-wrap{
+    display: block;
+  }
+
+  .banner-wrap img {
     display: none;
   }
   .store-variant {
