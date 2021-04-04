@@ -2,11 +2,11 @@ $(document).ready(function(){
     $(".owl-carousel").owlCarousel({
         autoplay:true,
         loop:true,
-        items:4,
-        
+        items:5,
+        dots:true,
         responsive: {
             280: {
-                items: 1,
+                items: 1
             },
 
             580: {
@@ -14,12 +14,18 @@ $(document).ready(function(){
             },
 
             760: {
+                items: 2
+            },
+
+            1000: {
                 items: 3
             },
-            1000: {
+            1300: {
                 items: 4
+            },
+            1920: {
+                items: 5
             }
-
         }
     });
 });
