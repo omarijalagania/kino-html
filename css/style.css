@@ -3078,6 +3078,8 @@ ul#navigation a:hover {
   padding: 6px 15px 5px 11px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+  border: 0.5px solid #fe505a;
+  margin-top: 10px;
 }
 .read-more:after {
   content: '\f054';
@@ -3781,9 +3783,13 @@ ul#navigation a:hover {
 }
 
 .post__title {
+  font-size: large;
   color: white;
   text-align: center;
-  max-width: 50%;
+  max-width: 80%;
+  display:block;
+  margin-bottom: 15px;
+  margin-left: 10%;
 }
 
 .post__title-link {
