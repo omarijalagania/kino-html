@@ -3699,7 +3699,6 @@ ul#navigation a:hover {
 
 
 .post__image:hover::after {
-  transition: all 0.7s;
   content: '';
   position: absolute;
   top: 0;
@@ -3709,6 +3708,7 @@ ul#navigation a:hover {
   background-color: rgba(0, 0, 0, 0.801);
   opacity: 1;
   cursor: pointer;
+  transition: all 1s;
 }
 
 .movie-links-post {
@@ -3726,7 +3726,7 @@ ul#navigation a:hover {
 
 .movie-links-post:hover {
   cursor: pointer;
-  transition: all 0.7s;
+  transition: all 1s;
   opacity: 1;
 } 
 
@@ -3810,7 +3810,8 @@ ul#navigation a:hover {
 }
 
 .post__image img {
-  min-width: 280px;
+  width: 300px;
+  height: auto;
 }
 
 
@@ -9267,6 +9268,7 @@ ul#navigation li.mega-menu__nav-item:hover:before {
   .read-more {
     display: inline-block;
     margin-bottom: 15px;
+    
   }
   .mega-select .select__field {
     width: 100%;

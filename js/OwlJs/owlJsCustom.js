@@ -4,6 +4,7 @@ $(document).ready(function(){
         loop:true,
         items:5,
         dots:true,
+        margin: -20,
         responsive: {
             280: {
                 items: 1
@@ -23,9 +24,10 @@ $(document).ready(function(){
             1300: {
                 items: 4
             },
-            1920: {
-                items: 5
+            1900: {
+                items: 5,
             }
+
         }
     });
 });
