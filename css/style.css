@@ -9073,7 +9073,7 @@ ul#navigation li.mega-menu__nav-item:hover:before {
     margin-top: -50px;
   }
   .movie-best .movie-beta__item {
-    width: 25%;
+    /* width: 25%; */
   }
   .mega-select-marker .select-marker {
     margin-bottom: 60px;
