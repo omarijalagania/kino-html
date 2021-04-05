@@ -8511,12 +8511,14 @@ ul#navigation li.mega-menu__nav-item:hover:before {
   padding-left: 15px;
 }
 .movie--test {
-  width: 50%;
+  width: 48%;
   float: left;
   margin-bottom: 8px;
+  margin-left: 10px;
+ 
 }
 .movie--test .movie__images {
-  width: 50%;
+  width: 100%;
   border: none;
   position: relative;
 }
@@ -8559,7 +8561,7 @@ ul#navigation li.mega-menu__nav-item:hover:before {
   overflow: hidden;
   padding: 17px 17px;
   position: relative;
-  min-height: 200px;
+  min-height: 130px;
   margin: 0;
 }
 .movie--test .movie__title {
