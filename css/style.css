@@ -908,7 +908,6 @@ table {
   width: 41.66666666666667%;
 }
 .col-xs-4 {
-  margin: 0 auto;
   width: 33.33333333333333%;
 }
 .col-xs-3 {
@@ -1540,6 +1539,7 @@ table {
 }
 @media (max-width: 767px) {
   .visible-xs {
+    
     display: block !important;
   }
   table.visible-xs {
@@ -9491,7 +9491,7 @@ ul#navigation li.mega-menu__nav-item:hover:before {
     margin-left: 130px;
   }
   .movie--test {
-    width: 30%;
+    width: 97%;
     margin: 10px;
   }
   .movie--test .movie__images {
@@ -9665,9 +9665,9 @@ ul#navigation li.mega-menu__nav-item:hover:before {
     margin-top: -200px;
   }
   .movie--test {
-    width: 45%;
+    width: 97%;
     margin: 10px;
-    max-width: 215px;
+ 
   }
   .banner-top,
   .adv-place {
@@ -9952,7 +9952,6 @@ ul#navigation li.mega-menu__nav-item:hover:before {
   .movie--test {
     width: 100%;
     margin: 10px 0px;
-    max-width: 250px;
     display: block;
   }
   .movie__media-item {
