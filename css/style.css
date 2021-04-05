@@ -3713,6 +3713,7 @@ ul#navigation a:hover {
   transition: all 1s;
 }
 
+
 .movie-links-post {
   position: absolute;
   top: 0;
@@ -3723,6 +3724,7 @@ ul#navigation a:hover {
   opacity: 0;
   text-align: center;
   padding-top: 180px ;
+  transition: all 1s;
 }
 
 
