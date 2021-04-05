@@ -8515,6 +8515,8 @@ ul#navigation li.mega-menu__nav-item:hover:before {
   float: left;
   margin-bottom: 8px;
   margin-left: 10px;
+  border-radius: 8px;
+  overflow: hidden;
  
 }
 .movie--test .movie__images {
