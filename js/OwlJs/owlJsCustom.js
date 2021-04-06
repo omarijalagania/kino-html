@@ -4,7 +4,7 @@ $(document).ready(function(){
         loop:true,
         items:5,
         dots:true,
-        
+        margin: -20,
         responsive: {
             280: {
                 items: 1

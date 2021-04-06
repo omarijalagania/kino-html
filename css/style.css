@@ -2287,9 +2287,10 @@ input[type="button"].btn-block {
 }
 
 .carousel-post-container {
-  width: 100%;
-  max-width: 280px;
+  min-width: 90%;
+  width: 280px;
   height: auto;
+  margin: 0 auto;
 }
 
 
@@ -3705,7 +3706,7 @@ ul#navigation a:hover {
   padding-right: 30px;
 }
 .post__image {
-
+  width:100%;
   position: relative;
 }
 
@@ -9671,7 +9672,7 @@ ul#navigation li.mega-menu__nav-item:hover:before {
 
   }
   .bannercontainer {
-
+    display: block !important;
     width: 100%;
     position: relative;
     padding: 0;
