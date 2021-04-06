@@ -1595,6 +1595,9 @@ table {
   td.visible-md {
     display: table-cell !important;
   }
+  .movie--test {
+    width: 46% !important;
+  }
 }
 @media (min-width: 1200px) {
   .visible-lg {
@@ -9092,7 +9095,7 @@ ul#navigation li.mega-menu__nav-item:hover:before {
     right: 145px;
   }
   .movie--test {
-    width: 100%;
+    width: 140%;
   }
   .movie-best {
     margin-top: -50px;
