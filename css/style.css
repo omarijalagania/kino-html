@@ -1209,7 +1209,7 @@ table {
     width: 83.33333333333334%;
   }
   .col-md-9 {
-    width: 75%;
+    width: 100%;
   }
   .col-md-8 {
     width: 66.66666666666666%;
@@ -8513,8 +8513,8 @@ ul#navigation li.mega-menu__nav-item:hover:before {
 .movie--test {
   width: 48%;
   float: left;
-  margin-bottom: 8px;
-  margin-left: 10px;
+  margin-bottom: 20px;
+  margin-left: 20px;
   border-radius: 8px;
   overflow: hidden;
  
