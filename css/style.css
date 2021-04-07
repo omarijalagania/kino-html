@@ -1059,6 +1059,13 @@ table {
 .col-xs-offset-0 {
   margin-left: 0%;
 }
+
+@media (min-width: 1199px) {
+   .col-sm-8 {
+    width: 100% !important;
+  }
+
+}
 @media (min-width: 768px) {
   .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
     float: left;
@@ -1077,7 +1084,7 @@ table {
     width: 75%;
   }
   .col-sm-8 {
-    width: 66.66666666666666%;
+    width: 30.66666666666666%;
   }
   .col-sm-8 .my-another-class {
     width: 60%;
@@ -1223,6 +1230,14 @@ table {
   .col-sm-offset-0 {
     margin-left: 0%;
   }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .col-md-9 {
+    width: 100%; 
+    margin-left: 74px;  
+  }
+
 }
 @media (min-width: 992px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
@@ -1624,7 +1639,8 @@ table {
     display: table-cell !important;
   }
   .movie--test {
-    width: 46% !important;
+    width: 38% !important;
+    
   }
 }
 @media (min-width: 1200px) {
@@ -1635,7 +1651,9 @@ table {
     display: table;
   }
 
- 
+  .col-md-9.my-another-class {
+    width: 60% !important;
+  }
   tr.visible-lg {
     display: table-row !important;
   }
@@ -8959,7 +8977,7 @@ ul#navigation li.mega-menu__nav-item:hover:before {
     margin-top: -38px;
   }
   .movie--test .movie__info {
-    min-height: 173px;
+    min-height: 123px;
   }
   .movie--test .movie__option {
     line-height: 13px;
