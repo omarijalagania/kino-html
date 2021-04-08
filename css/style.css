@@ -10416,7 +10416,7 @@ ul#navigation li.mega-menu__nav-item:hover:before {
 @media (max-width: 640px) {
 
   .banner--horizontal img {
-    width: 400px;
+    width: 500px;
   }
   
 
@@ -10425,9 +10425,21 @@ ul#navigation li.mega-menu__nav-item:hover:before {
 @media (max-width: 462px) {
 
   .banner--horizontal img {
+    width: 300px;
+  }
+  .col__sm__container {
+    margin-top: 150px;
+  }
+
+}
+@media (max-width: 360px) {
+
+  .banner--horizontal img {
     width: 200px;
   }
-  
+  .col__sm__container {
+    margin-top: 120px;
+  }
 
 }
 
