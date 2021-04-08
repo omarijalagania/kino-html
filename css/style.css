@@ -1574,9 +1574,9 @@ table {
   .visible-md {
     display: block !important;
   }
-  .movie--test--new {
-    width: 40% !important;  /* QUERY HERE */
-  }
+ /*  .movie--test--new {
+    width: 40% !important;  /* New Card QUERY HERE 
+  } */
   table.visible-md {
     display: table;
   }
@@ -1607,17 +1607,17 @@ table {
   .hidden-xs {
     display: none;
   }
-  .movie--test--new {
-    width: 100% !important;  /* QUERY HERE */
-  }
+/*   .movie--test--new {
+    width: 100% !important;  /* New Card QUERY HERE 
+  } */
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .hidden-sm {
     display: block !important;
   }
-  .movie--test--new {
-    width: 40% !important;  /* QUERY HERE */
-  }
+  /* .movie--test--new {
+    width: 40% !important;  /* New Card QUERY HERE 
+  } */
 }
 @media (min-width: 992px) and (max-width: 1199px) {
   .hidden-md {
@@ -10202,12 +10202,89 @@ ul#navigation li.mega-menu__nav-item:hover:before {
 
 
 .movie--test--new {
-  width: 30%;
+  width: 23%;
   float: left;
-  margin-bottom: 8px;
-  margin-left: 10px;
+  margin-bottom: 15px;
+  margin-left: 20px;
   border-radius: 8px;
   overflow: hidden;
  }
 
 /* New Card End */
+
+
+@media (min-width: 1199px) {
+.col-md-9-new {
+    width: 100% !important;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+.col-md-9-new {
+    width: 100%;
+}
+
+.movie--test--new {
+  width: 30%;
+  float: left;
+  margin-bottom: 15px;
+  margin-left: 20px;
+  border-radius: 8px;
+  overflow: hidden;
+ }
+
+}
+
+@media (min-width: 767px) and (max-width: 992px){
+.col-md-9-new {
+    width: 100%;
+}
+
+.movie--test--new {
+  width: 30%;
+  
+ }
+
+}
+
+@media (max-width: 767px) {
+
+  .col-md-9-new {
+    width: 100%;
+}
+
+.movie--test--new {
+  width: 44%;
+  margin-bottom: 15px;
+  margin-left: 30px;
+  
+ }
+}
+
+@media (max-width: 567px) {
+
+  .col-md-9-new {
+    width: 100%;
+}
+
+.movie--test--new {
+  width: 40%;
+  margin-bottom: 15px;
+  margin-left: 30px;
+  
+ }
+}
+
+@media (max-width: 461px) {
+
+  .col-md-9-new {
+    width: 100%;
+}
+
+.movie--test--new {
+  width: 70%;
+  margin-bottom: 15px;
+  margin-left: 30px;
+  
+ }
+}
