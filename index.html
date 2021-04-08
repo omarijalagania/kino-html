@@ -26,6 +26,8 @@
         <link rel="stylesheet" href="css/OwlCss/owl.theme.default.css">
 
 
+        
+       
 
         <!-- Mobile menu -->
         <link href="css/gozha-nav.css" rel="stylesheet" />
@@ -122,7 +124,7 @@
         </header>
 
         <!-- Slider -->
-            <div class="bannercontainer">
+            <div class="bannercontainer" style="overflow: visible;">
                     <div class="banner">
                         <ul>
 
@@ -246,8 +248,7 @@
                                  </div>
                             </li>
 
-                            <li data-transition="fade" data-slotamount="7" class="slide fading-slide" data-slide='Travel worldwide.
-Create trip film.'>
+                            <li data-transition="fade" data-slotamount="7" class="slide fading-slide" data-slide='Travel worldwide.Create trip film.'>
                                 <img alt='' src="images/1920x616.png">
                                  <div class="caption slide__video" data-x="0" data-y="0" data-autoplay='true'>
                                    <!-- <video class="media-element"  autoplay="autoplay" preload='none' loop="loop" muted="" src="video/53170154.mp4" >
@@ -522,9 +523,22 @@ Start doing.'>
 
             <div class="clearfix"></div>
 
-            <h2 id='target' class="page-heading heading--outcontainer">ახლა კინოთეატრში</h2>
+            <div class="banner--horizontal">
+                <img src="images/banners/banner_fliped.jpg" alt="">
+            </div>
 
-            <div class="col-sm-12">
+            
+
+            <div class="col-sm-12 col__sm__container">
+                <h2 id='target' class="page-heading heading--outcontainer">ახლა კინოთეატრში</h2>
+                
+
+                <div class="banner--left">
+                    <img src="images/banners/banner_2.jpg" alt="">
+                </div>
+                <div class="banner--right">
+                    <img src="images/banners/banner_2.jpg" alt="">
+                </div>
                 <div class="row">
                     <div class="col-sm-8 col-md-9 col-md-9-new">
                         <!-- Movie variant with time -->
@@ -715,9 +729,10 @@ Start doing.'>
                         </div>
                     <!-- </aside> -->
                 </div>
+                
+
             </div>
 
- 
             <h2 class="page-heading">მალე კინოთეატრებში</h2>
             <div class="col-sm-12">
                 
@@ -967,6 +982,7 @@ Start doing.'>
                 </div>
 
             </section>
+
         </div>
 
 	<!-- JavaScript-->
@@ -1008,6 +1024,7 @@ Start doing.'>
               $(document).ready(function() {
                 init_Home();
               });
+
 		    </script>
 
             <script src="js/OwlJs/owlJsCustom.js"></script>

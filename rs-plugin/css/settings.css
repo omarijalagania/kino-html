@@ -1152,12 +1152,12 @@ border-style:none;
 
 ******************************************************************/
 
-/*.tp-simpleresponsive				{	-webkit-perspective: 1500px;
+.tp-simpleresponsive				{	-webkit-perspective: 1500px;
 										-moz-perspective: 1500px;
 										-o-perspective: 1500px;
 										-ms-perspective: 1500px;
 										perspective: 1500px;
-									}*/
+									}
 
 
 
@@ -1194,12 +1194,12 @@ border-style:none;
 .tp-simpleresponsive .caption,
 .tp-simpleresponsive .tp-caption {
 	/*-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";		-moz-opacity: 0;	-khtml-opacity: 0;	opacity: 0; */
-	position:absolute;visibility: hidden;
+	position:absolute;visibility: visible;
 	-webkit-font-smoothing: antialiased !important;
 }
 
 
-.tp-simpleresponsive img	{	max-width:none;}
+.tp-simpleresponsive img	{	max-width:auto;}
 
 
 
