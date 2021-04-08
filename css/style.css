@@ -10051,6 +10051,7 @@ ul#navigation li.mega-menu__nav-item:hover:before {
   }
   .movie-best .movie-beta__item {
     width: 100%;
+    margin-bottom: -220px;
   }
   .second--item {
     display: none;
@@ -10108,7 +10109,7 @@ ul#navigation li.mega-menu__nav-item:hover:before {
   }
   .movie-best .movie-beta__info {
     position: relative;
-    visibility: visible;
+    visibility: none;
   }
   .movie-best .movie-beta__item:hover .movie-beta__info {
     -webkit-transform: translateY(0%);
