@@ -10328,7 +10328,14 @@ ul#navigation li.mega-menu__nav-item:hover:before {
   margin: 40px 0;
 }
 
-.banner--horizontal img {
+.banner2--horizontal {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0;
+  display: none;
+}
+
+.banner--horizontal img ,.banner2--horizontal img {
   width: 600px;
 }
 
@@ -10402,7 +10409,10 @@ ul#navigation li.mega-menu__nav-item:hover:before {
   .col__sm__container {
     margin-top: 150px;
   }
-  
+  .banner2--horizontal {
+    display: flex;
+  }
+
 }
 
 @media (max-width: 767px) {
@@ -10415,18 +10425,18 @@ ul#navigation li.mega-menu__nav-item:hover:before {
 
 @media (max-width: 640px) {
 
-  .banner--horizontal img {
+  .banner--horizontal img, .banner2--horizontal img{
     width: 500px;
   }
-  
 
 }
 
 @media (max-width: 462px) {
 
-  .banner--horizontal img {
+  .banner--horizontal img, .banner2--horizontal img {
     width: 300px;
   }
+
   .col__sm__container {
     margin-top: 150px;
   }
@@ -10434,7 +10444,7 @@ ul#navigation li.mega-menu__nav-item:hover:before {
 }
 @media (max-width: 360px) {
 
-  .banner--horizontal img {
+  .banner--horizontal img, .banner2--horizontal img{
     width: 200px;
   }
   .col__sm__container {

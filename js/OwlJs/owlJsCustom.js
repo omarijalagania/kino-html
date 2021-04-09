@@ -15,11 +15,16 @@ $(document).ready(function(){
             },
 
             760: {
+                items: 3
+            },
+
+            1000: {
                 items: 2
             },
 
+
             1200: {
-                items: 2
+                items: 3
             },
 
             1300: {
