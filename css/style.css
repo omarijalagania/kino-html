@@ -10157,6 +10157,10 @@ ul#navigation li.mega-menu__nav-item:hover:before {
   margin-left: 25px;
 }
 
+.myRow {
+  margin: 0 auto;
+}
+
 .movie--info--new {
   position: absolute;
   bottom: 15%;
