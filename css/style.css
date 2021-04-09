@@ -10211,8 +10211,9 @@ ul#navigation li.mega-menu__nav-item:hover:before {
   overflow: hidden;
  }
 
-/* New Card End */
 
+
+/* Query for New Card */
 
 @media (min-width: 1199px) {
 .col-md-9-new {
@@ -10283,12 +10284,15 @@ ul#navigation li.mega-menu__nav-item:hover:before {
 }
 
 .movie--test--new {
-  width: 70%;
+  width: 100%;
   margin-bottom: 15px;
-  margin-left: 30px;
-  
+  margin-left: 7px;  
  }
 }
+
+/* New Card End */
+
+
 
 
 /* BANNERS */
@@ -10455,3 +10459,32 @@ ul#navigation li.mega-menu__nav-item:hover:before {
 
 
 /* BANNERS END*/
+
+
+
+/* New Page Heading */
+.page-heading-new {
+  width: 500px;
+  display: flex;
+  margin-left: 20px;
+}
+
+
+
+/* Add Pading for Carusell */
+.myBox{
+  padding: 0 100px;
+}
+
+@media (max-width: 462px) {
+.myBox{
+  padding: 0 20px;
+}
+
+}
+@media (max-width: 780px) {
+.myBox{
+  padding: 0 30px;
+}
+}
+/* End Add Pading for Carusell */
