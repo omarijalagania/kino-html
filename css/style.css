@@ -10459,7 +10459,22 @@ ul#navigation li.mega-menu__nav-item:hover:before {
   margin-left: 20px;
 }
 
+
+
 /* Add Pading for Carusell */
 .myBox{
   padding: 0 100px;
 }
+
+@media (max-width: 462px) {
+.myBox{
+  padding: 0 20px;
+}
+
+}
+@media (max-width: 780px) {
+.myBox{
+  padding: 0 30px;
+}
+}
+/* End Add Pading for Carusell */
