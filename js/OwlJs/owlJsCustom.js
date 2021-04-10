@@ -6,6 +6,11 @@ $(document).ready(function(){
         dots:true,
         
         responsive: {
+            0: {
+                items: 1
+            },
+
+
             280: {
                 items: 1
             },
@@ -15,7 +20,7 @@ $(document).ready(function(){
             },
 
             760: {
-                items: 3
+                items: 2
             },
 
             1000: {

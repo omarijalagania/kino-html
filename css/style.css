@@ -2856,7 +2856,7 @@ ul#navigation a:hover {
 }
 .page-heading {
   padding-left: 30px;
-  margin-top: 70px;
+  margin-top: 70px;  
   margin-bottom: 27px;
   font: 20px 'aleobold', sans-serif;
   color: #4c4145;
@@ -3711,9 +3711,6 @@ ul#navigation a:hover {
   position: relative;
 }
 
-.post__image img {  
-  border-radius: 8px; 
-}
 
 /* POST MODIFICATION*/
 
@@ -3731,7 +3728,6 @@ ul#navigation a:hover {
   opacity: 1;
   cursor: pointer;
   transition: all 1s;
-  border-radius: 8px;
 }
 
 
@@ -10434,6 +10430,7 @@ ul#navigation li.mega-menu__nav-item:hover:before {
   }
   .banner2--horizontal {
     display: flex;
+    height: auto;
 
   }
 
@@ -10463,6 +10460,9 @@ ul#navigation li.mega-menu__nav-item:hover:before {
 
   .col__sm__container {
     margin-top: 150px;
+  }
+  .coming--soon--title {
+    margin-top: 20px;
   }
 
 }
