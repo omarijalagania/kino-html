@@ -3711,6 +3711,9 @@ ul#navigation a:hover {
   position: relative;
 }
 
+.post__image img {  
+  border-radius: 8px; 
+}
 
 /* POST MODIFICATION*/
 
