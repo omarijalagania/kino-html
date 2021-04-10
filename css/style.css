@@ -10428,7 +10428,7 @@ ul#navigation li.mega-menu__nav-item:hover:before {
   }
   .banner2--horizontal {
     display: flex;
-    margin: 0;
+    margin-bottom: 50px;
   }
 
 }
