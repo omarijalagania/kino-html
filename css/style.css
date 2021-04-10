@@ -7469,7 +7469,7 @@ ul#navigation li.mega-menu__nav-item:hover:before {
   transition: 0.3s;
 }
 .movie-best .movie-beta__info .slide__link:hover {
-  background-color: orange;
+  /* background-color: orange; */
   color: #ffffff;
 }
 .movie-best .movie-beta__info .slide__link:hover:before {
