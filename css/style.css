@@ -859,6 +859,7 @@ table {
 @media (min-width: 1200px) {
   .container {
     width: 1170px;
+    position: relative;
   }
 }
 .container-fluid {
@@ -10314,7 +10315,6 @@ ul#navigation li.mega-menu__nav-item:hover:before {
 .banner--left {
   position: absolute;
   width: 15%;
-  top:6%;
   left: -22%;
   
 }
@@ -10328,7 +10328,6 @@ ul#navigation li.mega-menu__nav-item:hover:before {
 .banner--right {
   position: absolute;
   width: 15%;
-  top:6%;
   right: -22%;
 }
 
