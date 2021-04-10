@@ -2641,6 +2641,7 @@ input[type="button"].btn-block {
   overflow: hidden;
   margin-top: 60px;
 }
+
 .select-area {
   background-color: #f5f5f5;
   padding: 13px 20px 2px;
@@ -3712,6 +3713,10 @@ ul#navigation a:hover {
 }
 
 
+.post__image img {
+  border-radius: 8px;
+}
+
 /* POST MODIFICATION*/
 
 
@@ -3728,6 +3733,7 @@ ul#navigation a:hover {
   opacity: 1;
   cursor: pointer;
   transition: all 1s;
+  border-radius: 8px;
 }
 
 
