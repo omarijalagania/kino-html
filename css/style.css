@@ -5340,6 +5340,8 @@ ul#navigation li.mega-menu__nav-item:hover:before {
   color: #fe505a;
   margin-bottom: 20px;
   padding-left: 20px;
+  display: flex;
+  justify-content: space-between;
 }
 .movie .movie__time:before {
   content: "\f017";
@@ -9163,6 +9165,8 @@ ul#navigation li.mega-menu__nav-item:hover:before {
   .control-panel {
     margin-right: 75px;
   }
+
+
   ul#navigation {
     margin-right: 0;
   }
