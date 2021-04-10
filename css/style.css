@@ -2643,6 +2643,16 @@ input[type="button"].btn-block {
   margin-top: 60px;
 }
 
+
+/* Footer for basti-bubu page */
+
+.my-article {
+  height: 60vh;
+}
+
+/* End Footer for basti-bubu page */
+
+
 .select-area {
   background-color: #f5f5f5;
   padding: 13px 20px 2px;
