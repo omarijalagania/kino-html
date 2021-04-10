@@ -2,9 +2,9 @@ $(document).ready(function(){
     $(".owl-carousel").owlCarousel({
         autoplay:true,
         loop:true,
-        items:5,
+        items:8,
         dots:true,
-        margin: -20,
+        
         responsive: {
             280: {
                 items: 1
