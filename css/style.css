@@ -669,7 +669,7 @@ h2 {
   color: #4c4145;
   font-size: 27px;
   font-family: 'aleoregular', sans-serif;
-  margin-top: 70px;
+  /* margin-top: 70px; */
   margin-bottom: 23px;
 }
 h3 {
@@ -2856,7 +2856,7 @@ ul#navigation a:hover {
 }
 .page-heading {
   padding-left: 30px;
-  margin-top: px;
+  
   margin-bottom: 27px;
   font: 20px 'aleobold', sans-serif;
   color: #4c4145;
@@ -2867,6 +2867,8 @@ ul#navigation a:hover {
   background-position: left center;
   background-repeat: no-repeat;
 }
+
+
 .heading-special {
   font-size: 22px;
   line-height: 20px;
@@ -10348,7 +10350,7 @@ ul#navigation li.mega-menu__nav-item:hover:before {
 .banner2--horizontal {
   display: flex;
   justify-content: center;
-  margin: 50px 0;
+  margin-top: 30px;
   display: none;
 }
 
@@ -10428,7 +10430,7 @@ ul#navigation li.mega-menu__nav-item:hover:before {
   }
   .banner2--horizontal {
     display: flex;
-    margin-bottom: 50px;
+
   }
 
 }
@@ -10478,7 +10480,7 @@ ul#navigation li.mega-menu__nav-item:hover:before {
 
 /* New Page Heading */
 .page-heading-new {
-  width: 500px;
+  /* width: 500px; */
   display: flex;
   margin-left: 20px;
 }
