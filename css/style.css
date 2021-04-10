@@ -10503,3 +10503,14 @@ ul#navigation li.mega-menu__nav-item:hover:before {
 }
 }
 /* End Add Pading for Carusell */
+
+
+/* New Query for movie-page-full's image */
+
+@media only screen and (max-width: 640px) {
+  .movie .movie__images,
+  .movie .movie__rate {
+    max-width: 100% !important;
+  }
+}
+/* End New Query for movie-page-full's image */
