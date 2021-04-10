@@ -10461,6 +10461,9 @@ ul#navigation li.mega-menu__nav-item:hover:before {
   .col__sm__container {
     margin-top: 150px;
   }
+  .coming--soon--title {
+    margin-top: 20px;
+  }
 
 }
 @media (max-width: 360px) {
