@@ -10147,7 +10147,10 @@ ul#navigation li.mega-menu__nav-item:hover:before {
   background-color: rgba(0, 0, 0, 0.801);
   cursor: pointer;
   transition: all 1s;
-  z-index: 1;}
+  z-index: 1;
+}
+
+
  .movie--images--new img {
   max-width: 100%;
   border-radius: 8px;
