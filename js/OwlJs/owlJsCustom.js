@@ -15,26 +15,22 @@ $(document).ready(function(){
                 items: 1
             },
 
+            540: {
+                items: 2
+            },
+
             580: {
                 items: 2
             },
 
             760: {
-                items: 2
-            },
-
-            1000: {
-                items: 2
-            },
-
-
-            1200: {
                 items: 3
             },
 
-            1300: {
+            1200: {
                 items: 4
             },
+
             1900: {
                 items: 5,
             }
