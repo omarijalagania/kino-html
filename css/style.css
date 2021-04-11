@@ -10538,4 +10538,42 @@ ul#navigation li.mega-menu__nav-item:hover:before {
     max-width: 100% !important;
   }
 }
+
 /* End New Query for movie-page-full's image */
+
+
+
+
+
+@media only screen and (max-width: 770px) {
+  .post__image {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .carousel-post-container {
+    width: 100%;
+    
+  }
+}
+
+  @media only screen and (max-width: 411px) {
+    .post__image {
+      width: 100%;
+      
+    }
+}
+/* 
+@media only screen and (max-width: 540px) {
+  .post__image {
+    width: 60%;
+    
+    
+  }
+} */
+
+@media only screen and (max-width: 280px) {
+  .post__image {
+    width: 90%;
+    
+  }
+}
