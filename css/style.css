@@ -10633,7 +10633,7 @@ ul#navigation li.mega-menu__nav-item:hover:before {
   display: none;
   z-index: 2;
   position: absolute;
-  top: 20%;
+  top: -70%;
   left: 50%;
   
   -webkit-transform: translateX(-50%);
