@@ -2979,10 +2979,10 @@ ul#navigation a:hover {
 }
 .btn--danger {
   background-color: orange;
-  border: solid 1px #f42a36;
+  border: solid 1px orange;
 }
 .btn--danger:hover {
-  background-color: #fd616a;
+  background-color: rgb(255, 193, 77);
   border-color: transparent;
 }
 .btn--success {
