@@ -25,7 +25,7 @@
         <link rel="stylesheet" href="css/OwlCss/owl.carousel.min.css">
         <link rel="stylesheet" href="css/OwlCss/owl.theme.default.css">
 
-       
+       <link rel="stylesheet" href="css/timeoutModal.css">
 
         <!-- Mobile menu -->
         <link href="css/gozha-nav.css" rel="stylesheet" />
@@ -413,9 +413,17 @@ Start doing.'>
 
 
 
-        
 
-
+            <div id="modal" class="modal"></div>
+    <div class="video-popup">
+      <a class="close">&times;</a>
+        <!-- Modal content -->
+        <div class="video-wrapper">
+            <div class="video-container">
+               <iframe id="video" class="video-player--you" src="https://www.youtube.com/embed/fEVb2gbxkZU?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+     </div>
 
 
 
@@ -1016,15 +1024,16 @@ Start doing.'>
         <script src="js/external/jquery-migrate-1.2.1.min.js"></script>
         <!-- Bootstrap 3--> 
         <script src="js/bootstrap.min.js"></script>
-
+        <script src="js/modalBoot.js"></script>
         <!-- jQuery REVOLUTION Slider -->
         <script type="text/javascript" src="rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
         <script type="text/javascript" src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
 
         <!-- Mobile menu -->
 
-       
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
 
+        <script src="js/timeoutModal.js"></script>
         <script src="js/jquery.mobile.menu.js"></script>
          <!-- Select -->
         <script src="js/external/jquery.selectbox-0.2.min.js"></script>
@@ -1042,7 +1051,7 @@ Start doing.'>
         <!-- Custom -->
 
         <script src="js/OwlJs/owl.carousel.min.js"></script>
-        
+        <script src="js/modalBoot.js"></script>
         <script src="js/custom.js"></script>
 		
 	      <script type="text/javascript">
@@ -1052,7 +1061,6 @@ Start doing.'>
 
 		    </script>
 
-            
 
 
             <script src="js/OwlJs/owlJsCustom.js"></script>
