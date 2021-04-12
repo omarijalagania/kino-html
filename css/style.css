@@ -8860,7 +8860,7 @@ ul#navigation li.mega-menu__nav-item:hover:before {
 }
 .btn-control--home {
   margin-top: 1px;
-}
+} 
 .twitter--large .twitter__head {
   display: none;
 }
@@ -10092,6 +10092,24 @@ ul#navigation li.mega-menu__nav-item:hover:before {
   .sits-area--mobile .sbHolder .sbOptions {
     width: 100%;
   }
+
+  .movie-best .movie-best__rating {
+
+    font: 18px 'aleobold', sans-serif;
+
+  }
+  .movie-best .movie-best__rating:before {
+    content: "";
+
+    left: 60%;
+
+  }
+  .movie-best .movie-best__rating:after {
+    content: "";
+
+    right: 60%;
+  }
+
 }
 @media (max-width: 360px) {
   .ui-datepicker {
@@ -10171,10 +10189,31 @@ ul#navigation li.mega-menu__nav-item:hover:before {
   .movie-best .movie-beta__item .best-rate {
     top: 25%;
   }
+
+
 }
 @media (max-width: 319px) {
   .post--preview .post__image {
     width: 100%;
+  }
+}
+
+@media (max-width: 375px) {
+  .movie-best .movie-best__rating {
+
+    font: 16px 'aleobold', sans-serif;
+
+  }
+  .movie-best .movie-best__rating:before {
+    content: "";
+
+    left: 65%;
+
+  }
+  .movie-best .movie-best__rating:after {
+    content: "";
+
+    right: 65%;
   }
 }
 
