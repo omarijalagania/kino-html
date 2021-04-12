@@ -1848,6 +1848,21 @@ fieldset[disabled] .btn-success.active {
   background-color: #5bc0de;
   border-color: #46b8da;
 }
+
+
+.carousel-container--my {
+  width: 60%;
+  margin:0 auto ;
+}
+
+
+
+
+
+
+
+
+
 .btn-info:hover,
 .btn-info:focus,
 .btn-info:active,

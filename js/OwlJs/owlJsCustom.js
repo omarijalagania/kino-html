@@ -27,12 +27,12 @@ $(document).ready(function(){
                 items: 3
             },
 
-            1200: {
-                items: 4
+            1024: {
+                items: 2
             },
 
             1900: {
-                items: 5,
+                items: 3,
             }
 
         }
