@@ -2740,7 +2740,13 @@ input[type="button"].btn-block {
 }
 .search-wrapper {
   background-color: #dbdee1;
-  height: 86px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.search--cont--new {
+  margin-top: 58px;
 }
 .list-input {
   margin-left: 48px;
@@ -8418,6 +8424,12 @@ ul#navigation li.mega-menu__nav-item:hover:before {
   margin-left: -15px;
   overflow: hidden;
 }
+
+.movie .movie--preview--new {
+  margin-left: 0px;
+}
+
+
 .movie--preview .movie__images {
   border: none;
 }
