@@ -2848,10 +2848,14 @@ input[type="button"].btn-block {
   top: 16px;
   left: 15px;
   z-index: 2;
+  display: flex;
 }
 .logo img {
-  width: 111px;
-  height: 17px;
+  width: 30px;
+  height: 30px;  
+}
+.logo p {
+color: white;
 }
 #navigation-box {
   background-color: transparent;
