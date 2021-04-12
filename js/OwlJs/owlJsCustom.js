@@ -16,7 +16,7 @@ $(document).ready(function(){
             },
 
             540: {
-                items: 2
+                items: 3
             },
 
             580: {
@@ -24,6 +24,10 @@ $(document).ready(function(){
             },
 
             760: {
+                items: 2
+            },
+
+            1000: {
                 items: 3
             },
 
