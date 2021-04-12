@@ -99,7 +99,7 @@
 					parallaxBgFreeze: "off",
 					parallaxOpacity:"on",
 					parallaxDisableOnMobile:"off",
-					panZoomDisableOnMobile:"off",
+					panZoomDisableOnMobile:"on",
 					simplifyAll:"on",
 					minHeight:0,
 					nextSlideOnWindowFocus:"off",

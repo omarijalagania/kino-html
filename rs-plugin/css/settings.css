@@ -1187,7 +1187,6 @@ border-style:none;
 }
 
 
-
 /************************************************
 	  - SOME CAPTION MODIFICATION AT START  -
 *************************************************/
@@ -1499,8 +1498,8 @@ border-style:none;
 
 
     @media only screen and (min-width: 0px) and (max-width: 479px) {
-				.responsive .tp-bullets	{	display:none}
-				.responsive .tparrows	{	display:none;}
+				.responsive .tp-bullets	{	display:block !important}
+				.responsive .tparrows	{	display:block !important;}
 	}
 
 
