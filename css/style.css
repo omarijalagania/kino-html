@@ -10471,6 +10471,9 @@ ul#navigation li.mega-menu__nav-item:hover:before {
  .carousel-post-container {
    width: 100%;
  }
+ .post__title {
+  font-size: 12px;
+}
 }
 
 /* New Card End */
