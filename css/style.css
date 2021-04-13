@@ -10686,9 +10686,9 @@ ul#navigation li.mega-menu__nav-item:hover:before {
   position: absolute;
   top: -70%;
   left: 50%;
+  transform: translate(-50%);
   
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
+  
   
   background-color: transparent;
   border-radius: 4px;
@@ -10712,7 +10712,7 @@ ul#navigation li.mega-menu__nav-item:hover:before {
 
 .video-wrapper {
   max-width: 100%;
-  width: 1200px;
+  width:90vw;
   margin: 30px auto;
 }
 @media only screen and (max-width: 1200px) {
