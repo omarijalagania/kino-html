@@ -10445,6 +10445,14 @@ ul#navigation li.mega-menu__nav-item:hover:before {
   width: 100%;
   
  }
+
+ .coming--soon--title {
+   margin-left: -40px;
+ }
+
+ .carousel-post-container {
+   width: 100%;
+ }
 }
 
 /* New Card End */
