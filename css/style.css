@@ -3783,8 +3783,15 @@ ul#navigation a:hover {
   z-index: 99;
   opacity: 0;
   text-align: center;
-  padding-top: 180px ;
+  
   transition: all 1s;
+  
+}
+
+.movie--post--heads {
+  position: absolute;
+  top:50%;
+  transform: translateY(-50%);
 }
 
 
@@ -3845,6 +3852,7 @@ ul#navigation a:hover {
 }
 
 .post__title {
+  
   font-size: large;
   color: white;
   text-align: center;
@@ -3867,6 +3875,9 @@ ul#navigation a:hover {
   margin-bottom: 18px;
   font-size: 12px;
 }
+
+
+
 .post .post__date:before {
   content: "\f073";
   font-size: 12px;
