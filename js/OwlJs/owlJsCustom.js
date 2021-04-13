@@ -4,7 +4,7 @@ $(document).ready(function(){
         loop:true,
         items:8,
         dots:true,
-        
+        nav: true,
         responsive: {
             0: {
                 items: 1

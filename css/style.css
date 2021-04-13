@@ -1853,6 +1853,7 @@ fieldset[disabled] .btn-success.active {
 .carousel-container--my {
   width: 60%;
   margin:0 auto ;
+  
 }
 
 
@@ -10387,6 +10388,22 @@ ul#navigation li.mega-menu__nav-item:hover:before {
 }
 
 @media (max-width: 461px) {
+
+  .owl-next {
+    
+    position: absolute;
+    bottom: 50%;
+    right: -20%;
+    transform: translateY(50%);
+}
+
+.owl-prev {
+    
+    position: absolute;
+    bottom: 50%;
+    left: -20%;
+    transform: translateY(50%);
+}
 
   .col-md-9-new {
     width: 100%;
