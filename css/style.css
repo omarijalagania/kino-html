@@ -2848,10 +2848,14 @@ input[type="button"].btn-block {
   top: 16px;
   left: 15px;
   z-index: 2;
+  display: flex;
 }
 .logo img {
-  width: 111px;
-  height: 17px;
+  width: 30px;
+  height: 30px;  
+}
+.logo p {
+color: white;
 }
 #navigation-box {
   background-color: transparent;
@@ -2979,10 +2983,10 @@ ul#navigation a:hover {
 }
 .btn--danger {
   background-color: orange;
-  border: solid 1px #f42a36;
+  border: solid 1px orange;
 }
 .btn--danger:hover {
-  background-color: #fd616a;
+  background-color: rgb(255, 193, 77);
   border-color: transparent;
 }
 .btn--success {
@@ -9539,9 +9543,9 @@ ul#navigation li.mega-menu__nav-item:hover:before {
   .contact-info .contact-info__field {
     width: auto;
   }
-  .sits-area {
+/*   .sits-area {
     width: 950px;
-  }
+  } */
   .sits .sits__number {
     margin-top: 100px;
   }
@@ -9657,7 +9661,7 @@ ul#navigation li.mega-menu__nav-item:hover:before {
     -ms-transform: scale(0.6);
     transform: scale(0.6);
     margin-top: -150px;
-    margin-bottom: -150px;
+    margin-bottom: -130px;
   }
   .ticket {
     left: 50%;
@@ -9828,7 +9832,7 @@ ul#navigation li.mega-menu__nav-item:hover:before {
     -ms-transform: scale(0.5);
     transform: scale(0.5);
     margin-top: -200px;
-    margin-bottom: -230px;
+    margin-bottom: -160px;
   }
   .ticket {
     left: 50%;
@@ -10049,12 +10053,12 @@ ul#navigation li.mega-menu__nav-item:hover:before {
     display: none;
   }
   .sits-area {
-    -webkit-transform: scale(0.3);
-    -moz-transform: scale(0.3);
-    -ms-transform: scale(0.3);
-    transform: scale(0.3);
-    margin-top: -250px;
-    margin-bottom: -280px;
+    -webkit-transform: scale(0.37);
+    -moz-transform: scale(0.37);
+    -ms-transform: scale(0.37);
+    transform: scale(0.37);
+    margin-top: -220px;
+    margin-bottom: -190px;
   }
   .ticket {
     left: 50%;
