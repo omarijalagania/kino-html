@@ -9702,11 +9702,27 @@ ul#navigation li.mega-menu__nav-item:hover:before {
     left: 40px;
   }
 }
+@media (max-width: 1024px) {
+  .video-popup {
+    top: -70%;
+  }
+}
+
+@media (max-width :1350px) {
+  .video-popup {
+    top: -70%;
+  }
+}
+
+
 @media (max-width: 800px) {
   .watchlist--map {
     display: block;
     float: none;
     max-width: 190px;
+  }
+  .video-popup {
+    top: -70%;
   }
   .watchlist--map-full {
     float: right;
@@ -9805,6 +9821,10 @@ ul#navigation li.mega-menu__nav-item:hover:before {
   .facebook-group {
     float: none;
     margin-bottom: 20px;
+  }
+
+  .video-popup {
+    top: -25%;
   }
   .control-panel {
     display: none;
@@ -10201,6 +10221,7 @@ ul#navigation li.mega-menu__nav-item:hover:before {
   .post--preview .post__image {
     width: 100%;
   }
+
 }
 
 @media (max-width: 375px) {
@@ -10379,6 +10400,7 @@ ul#navigation li.mega-menu__nav-item:hover:before {
   margin-left: 20px;
   
  }
+
 }
 
 @media (max-width: 567px) {
@@ -10403,6 +10425,10 @@ ul#navigation li.mega-menu__nav-item:hover:before {
     bottom: 50%;
     left: -20%;
     transform: translateY(50%);
+}
+
+.video-popup {
+  top: -30%;
 }
 
   .col-md-9-new {
@@ -10623,6 +10649,10 @@ ul#navigation li.mega-menu__nav-item:hover:before {
 .myBox{
   padding: 0 30px;
 }
+
+.video-popup {
+  top: -30%;
+}
 }
 /* End Add Pading for Carusell */
 
@@ -10703,15 +10733,12 @@ ul#navigation li.mega-menu__nav-item:hover:before {
 
 .video-popup {
   display: none;
-  z-index: 2;
+  z-index: 999;
   position: absolute;
-  top: -70%;
+  bottom: -30%;
   left: 50%;
   transform: translate(-50%);
-  
-  
-  
-  background-color: transparent;
+
   border-radius: 4px;
   z-index: 9999;
 }
@@ -10732,21 +10759,10 @@ ul#navigation li.mega-menu__nav-item:hover:before {
 }
 
 .video-wrapper {
-  max-width: 100%;
   width:90vw;
-  margin: 30px auto;
-}
-@media only screen and (max-width: 1200px) {
-  .video-wrapper {
-    width: 450px;
-  }
+  margin: 0 auto;
 }
 
-@media only screen and (max-width: 450px) {
-  .video-wrapper {
-    width: 250px;
-  }
-}
 .video-wrapper .video-container {
   position: relative;
   padding-bottom: 55.25%;
@@ -10761,8 +10777,3 @@ ul#navigation li.mega-menu__nav-item:hover:before {
   height: 100%;
 }
 
-.video-player--you {
- max-width: 100%;
-  width: 1920px;
-  height: 600px;
-}
