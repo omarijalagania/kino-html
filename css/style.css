@@ -1853,6 +1853,7 @@ fieldset[disabled] .btn-success.active {
 .carousel-container--my {
   width: 60%;
   margin:0 auto ;
+  
 }
 
 
@@ -10388,6 +10389,22 @@ ul#navigation li.mega-menu__nav-item:hover:before {
 
 @media (max-width: 461px) {
 
+  .owl-next {
+    
+    position: absolute;
+    bottom: 50%;
+    right: -20%;
+    transform: translateY(50%);
+}
+
+.owl-prev {
+    
+    position: absolute;
+    bottom: 50%;
+    left: -20%;
+    transform: translateY(50%);
+}
+
   .col-md-9-new {
     width: 100%;
 }
@@ -10690,9 +10707,9 @@ ul#navigation li.mega-menu__nav-item:hover:before {
   position: absolute;
   top: -70%;
   left: 50%;
+  transform: translate(-50%);
   
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
+  
   
   background-color: transparent;
   border-radius: 4px;
@@ -10716,7 +10733,7 @@ ul#navigation li.mega-menu__nav-item:hover:before {
 
 .video-wrapper {
   max-width: 100%;
-  width: 1200px;
+  width:90vw;
   margin: 30px auto;
 }
 @media only screen and (max-width: 1200px) {
