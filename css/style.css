@@ -10232,6 +10232,13 @@ ul#navigation li.mega-menu__nav-item:hover:before {
   .post--preview .post__image {
     width: 100%;
   }
+  .post__title {
+    font-size: 13px;
+  }
+  .btn--for--mobile {
+    font-size: 9px;
+    
+  }
 
 }
 
