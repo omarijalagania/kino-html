@@ -8464,6 +8464,14 @@ ul#navigation li.mega-menu__nav-item:hover:before {
   padding-top: 20px;
   padding-bottom: 20px;
 }
+
+.movie--feature--my {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
 .movie--preview .movie__feature .movie__feature--comment:before {
   content: "\f075";
   font: 14px "FontAwesome";
@@ -9106,6 +9114,7 @@ ul#navigation li.mega-menu__nav-item:hover:before {
     bottom: 0;
     right: auto;
     left: -240px;
+    width: 170px;
   }
   .movie .movie__btns--full {
     top: 0;
@@ -9436,7 +9445,7 @@ ul#navigation li.mega-menu__nav-item:hover:before {
     max-width: 100%;
   }
   .movie__feature {
-    max-width: 190px;
+    max-width: 170px;
   }
   .select {
     margin-left: 0;
