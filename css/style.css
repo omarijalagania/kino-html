@@ -5356,8 +5356,9 @@ ul#navigation li.mega-menu__nav-item:hover:before {
 .movie .movie__title {
   display: inline-block;
   margin-bottom: -6px;
-  max-width: 330px;
+  max-width: 330px; 
 }
+
 .movie .movie__rate {
   position: relative;
   padding: 20px 17px 19px;
@@ -10310,6 +10311,7 @@ ul#navigation li.mega-menu__nav-item:hover:before {
 }
 
 .movie--info--new {
+  
   position: absolute;
   bottom: 15%;
   opacity: 0;
@@ -10320,13 +10322,14 @@ ul#navigation li.mega-menu__nav-item:hover:before {
   left: 0;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  
+  text-align: center;  
 }
+
+
 .movie--info--new a{
   color: rgb(202, 201, 201);
   padding-bottom: 20px;
+  z-index: 999;
 }
 .movie--info--new p{
   color: rgb(202, 201, 201);
@@ -10334,14 +10337,43 @@ ul#navigation li.mega-menu__nav-item:hover:before {
 
 .movie__time__new {
   padding-top: 5px;
-  color: orange !important;
+  color: orange !important;  
   
 }
 
+.trailer-button {
+  border-radius: 3px;
+  transition: 0.5s;
+  border: 0.5px solid orange;
+  z-index: 9999;
+  text-transform: uppercase;
+  width: 90%;
+  height: 12%;;
+  border-radius: 3px;
+  margin: 10px auto;
+  margin-bottom: 20px;  
+  
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.after-disable::after {
+  display: none;
+}
+.trailer-button::after {
+  margin-top: 2.5%;
+}
 
-.movie--info--new a:hover{
+.movie__title--new {
+  z-index: 98;
+  font-size: 20px;
+  margin-top: 10%;
+}
+
+.movie--info--new .movie__title:hover{
   color: orange
 }
+
 
 .movie--info--new:hover {
   opacity: 1;  
