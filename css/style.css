@@ -10351,32 +10351,33 @@ ul#navigation li.mega-menu__nav-item:hover:before {
   height: 12%;;
   border-radius: 3px;
   margin: 290px 12px;  
+  padding-top: 10px;
   position: absolute;
   display: flex;
   justify-content: center;
   text-align: center;
 }
 
-.test {
+.additional-margin {
   margin: 240px 12px;  
 }
 
 .movie__option--new {
-  line-height: 1.0;
+  line-height: 1;
   padding: 5px;  
  }
 .after-disable::after {
   display: none;
 }
 .trailer-button::after {
-  margin-top: 2.5%;
+  margin-top: 2px;
 }
 
 .movie__title--new {
   z-index: 98;
   font-size: 20px;
   margin-top: 15px;
-  line-height: 1.0;
+  line-height: 1.3;
 }
 
 .movie--info--new .movie__title:hover{
@@ -10418,7 +10419,7 @@ ul#navigation li.mega-menu__nav-item:hover:before {
 }
 
 @media (min-width: 992px) and (max-width: 1199px){
-.col-md-9-new {
+ .col-md-9-new {
     width: 100%;
 }
 
@@ -10430,10 +10431,12 @@ ul#navigation li.mega-menu__nav-item:hover:before {
   border-radius: 8px;
   overflow: hidden;
  }
-  .movie--test--new img{
+.movie--test--new img{
     width: 100%;
-}
- 
+  }
+.movie__title--new {
+   padding: 0 10px;
+ }
 }
 
 @media (min-width: 767px) and (max-width: 992px){
@@ -10450,10 +10453,15 @@ ul#navigation li.mega-menu__nav-item:hover:before {
   height: 270px;
   
  }
+ .movie__title--new {
+   font-size: 18px;
+   padding: 0 15px;
+ }
  .trailer-button {
   margin: 220px 12px;
+  padding-top: 5px;
 }
-.test {
+.additional-margin {
   margin: 180px 12px;  
 }
 
@@ -10469,6 +10477,9 @@ ul#navigation li.mega-menu__nav-item:hover:before {
   width: 100%;
   
  }
+ .movie__title--new {
+  padding: 0 12px;
+}
 .movie--test--new {
   width: 44%;
   margin-bottom: 15px;
@@ -10482,24 +10493,54 @@ ul#navigation li.mega-menu__nav-item:hover:before {
 .movie--test--new img{
   height: 250px;
  }
+
  .trailer-button {
-  margin: 210px 12px;
+  margin: 205px 10px;
+  font-size: 10px;
+  
 }
-.test {
-  margin: 175px 12px;  
+
+.additional-margin {
+  margin: 167px 10px; 
 }
+
 .movie__title--new {
-  font-size: 18px;
+  font-size: 15px;
+  padding: 0 12px;
+}
+.movie__option--new{
+  font-size: 10px !important;
+}
+.movie__time__new{
+  font-size: 13px;
+}
+.trailer-button::after {
+  margin-top: 1px;
 }
 }
 
 @media (max-width: 461px) {
   .trailer-button {
     margin: 320px 12px;
+    padding-top:12px;
+    font-size: 18px;
   }
-  .test {
+  .additional-margin {
     margin: 260px 12px;  
   }
+  .movie__title--new {
+  font-size: 22px;
+  padding: 10px;
+}
+.movie__option--new{
+  font-size: 15px !important;
+}
+.movie__time__new{
+  font-size: 15px;
+}
+.trailer-button::after {
+  margin-top: 3px;
+}
 
   .owl-next {
     
