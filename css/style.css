@@ -10350,13 +10350,21 @@ ul#navigation li.mega-menu__nav-item:hover:before {
   width: 90%;
   height: 12%;;
   border-radius: 3px;
-  margin: 10px auto;
-  margin-bottom: 20px;  
-  
+  margin: 290px 12px;  
+  position: absolute;
   display: flex;
   justify-content: center;
   text-align: center;
 }
+
+.test {
+  margin: 240px 12px;  
+}
+
+.movie__option--new {
+  line-height: 1.0;
+  padding: 5px;  
+ }
 .after-disable::after {
   display: none;
 }
@@ -10367,7 +10375,8 @@ ul#navigation li.mega-menu__nav-item:hover:before {
 .movie__title--new {
   z-index: 98;
   font-size: 20px;
-  margin-top: 10%;
+  margin-top: 15px;
+  line-height: 1.0;
 }
 
 .movie--info--new .movie__title:hover{
@@ -10397,6 +10406,7 @@ ul#navigation li.mega-menu__nav-item:hover:before {
   overflow: hidden;
  }
 
+ 
 
 
 /* Query for New Card */
@@ -10440,6 +10450,12 @@ ul#navigation li.mega-menu__nav-item:hover:before {
   height: 270px;
   
  }
+ .trailer-button {
+  margin: 220px 12px;
+}
+.test {
+  margin: 180px 12px;  
+}
 
 }
 
@@ -10466,9 +10482,24 @@ ul#navigation li.mega-menu__nav-item:hover:before {
 .movie--test--new img{
   height: 250px;
  }
+ .trailer-button {
+  margin: 210px 12px;
+}
+.test {
+  margin: 175px 12px;  
+}
+.movie__title--new {
+  font-size: 18px;
+}
 }
 
 @media (max-width: 461px) {
+  .trailer-button {
+    margin: 320px 12px;
+  }
+  .test {
+    margin: 260px 12px;  
+  }
 
   .owl-next {
     
