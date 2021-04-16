@@ -10351,7 +10351,7 @@ ul#navigation li.mega-menu__nav-item:hover:before {
   height: 12%;;
   border-radius: 3px;
   margin: 290px 12px;  
-  padding-top: 10px;
+  padding-top: 8px;
   position: absolute;
   display: flex;
   justify-content: center;
@@ -10370,7 +10370,7 @@ ul#navigation li.mega-menu__nav-item:hover:before {
   display: none;
 }
 .trailer-button::after {
-  margin-top: 2px;
+  margin-top: 3.5px;
 }
 
 .movie__title--new {
@@ -10460,6 +10460,10 @@ ul#navigation li.mega-menu__nav-item:hover:before {
  .trailer-button {
   margin: 220px 12px;
   padding-top: 5px;
+  font-size: 12px;
+}
+.trailer-button::after {
+  margin-top: 4px ;
 }
 .additional-margin {
   margin: 180px 12px;  
@@ -10486,6 +10490,9 @@ ul#navigation li.mega-menu__nav-item:hover:before {
   margin-left: 20px;
   
  }
+ .trailer-button::after {
+  margin-top: 4px ;
+}
 
 }
 
@@ -10496,8 +10503,12 @@ ul#navigation li.mega-menu__nav-item:hover:before {
 
  .trailer-button {
   margin: 205px 10px;
-  font-size: 10px;
+  font-size: 11px;
+  padding-bottom: 10px !important;
   
+}
+.trailer-button::after {
+  margin-top: 3px !important;
 }
 
 .additional-margin {
@@ -10522,11 +10533,14 @@ ul#navigation li.mega-menu__nav-item:hover:before {
 @media (max-width: 461px) {
   .trailer-button {
     margin: 320px 12px;
-    padding-top:12px;
+    padding-top: 8px;
     font-size: 18px;
   }
   .additional-margin {
     margin: 260px 12px;  
+  }
+  .trailer-button::after {
+    margin-top: 5px !important;
   }
   .movie__title--new {
   font-size: 22px;
