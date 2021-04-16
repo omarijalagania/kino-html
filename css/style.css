@@ -10379,7 +10379,7 @@ ul#navigation li.mega-menu__nav-item:hover:before {
   text-align: center;
 }
 
-.additional-margin {
+.additional-margin-for-trailer-button {
   margin: 240px 12px;  
 }
 
@@ -10486,7 +10486,7 @@ ul#navigation li.mega-menu__nav-item:hover:before {
 .trailer-button::after {
   margin-top: 4px ;
 }
-.additional-margin {
+.additional-margin-for-trailer-button {
   margin: 180px 12px;  
 }
 
@@ -10532,7 +10532,7 @@ ul#navigation li.mega-menu__nav-item:hover:before {
   margin-top: 3px !important;
 }
 
-.additional-margin {
+.additional-margin-for-trailer-button {
   margin: 167px 10px; 
 }
 
@@ -10557,7 +10557,7 @@ ul#navigation li.mega-menu__nav-item:hover:before {
     padding-top: 8px;
     font-size: 18px;
   }
-  .additional-margin {
+  .additional-margin-for-trailer-button {
     margin: 260px 12px;  
   }
   .trailer-button::after {
