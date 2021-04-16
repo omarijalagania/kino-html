@@ -10324,6 +10324,27 @@ ul#navigation li.mega-menu__nav-item:hover:before {
   flex-direction: column;
   text-align: center;  
 }
+/* new style for card hover */
+.movie--info--new--left{
+  text-align: start;
+  margin-left: 10px;
+  margin-top: 5px;
+  
+}
+.movie__title--new--left {
+  font-weight: 800;
+  padding-bottom: 2px;
+  margin-left: 5px;
+}
+.movie__option--new--left{
+  margin-top: -25px;
+}
+.movie-duration {
+  font-size: 10px;
+  margin-left: 5px;
+  
+}
+/* end new style for card hover */
 
 
 .movie--info--new a{
